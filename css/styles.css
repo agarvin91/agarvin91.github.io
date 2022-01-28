@@ -88,8 +88,9 @@
   background-color:var(--bs-third);
   background-position: 0 0, 50px 50px;
   background-size: 100px 100px;
-  padding-bottom: 10vh;
-  height: 100vh;
+  padding-bottom: 20vh;
+  min-height: 100vh;
+  overflow: auto;
 
 }
 
