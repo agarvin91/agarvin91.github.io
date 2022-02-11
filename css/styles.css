@@ -109,6 +109,12 @@
   border-color: var(--bs-white);
 }
 
+.storyImage{
+  border-radius: 5%;
+  border-style: solid;
+  border-width: 5px;
+}
+
 @media(min-width: 568px){
   .mainSlice{
     top: 15vh;
@@ -140,6 +146,21 @@
   border-width: 5px;
 }
 
+.rotateimg5 {
+  -webkit-transform:rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+.rotateimg2 {
+  -webkit-transform:rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
 
 body {
   margin: 0;
@@ -11571,10 +11592,11 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
-  color: #fff;
+  background-color: var(--bs-secondary);
+  color: var(--bs-primary);
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: var(--bs-secondary);
+  color : var(--bs-primary);
 }
