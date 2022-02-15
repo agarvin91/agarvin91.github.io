@@ -162,6 +162,12 @@
   transform: rotate(-2deg);
 }
 
+.socialLink{
+  border-radius: 10%;
+  color: var(--bs-primary);
+}
+.socialLink: hover {}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -322,11 +328,11 @@ sup {
 }
 
 a {
-  color: #1abc9c;
-  text-decoration: underline;
+  color: var(--bs-primary);
+  text-decoration: none;
 }
 a:hover {
-  color: #15967d;
+  color: var(--bs-white);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
