@@ -14,9 +14,7 @@ window.addEventListener('DOMContentLoaded', event => {
     const navbarCollapsible = document.body.querySelector('#mainNav');
     navbarCollapsible.classList.add('navbar-shrink');
         
-
-    
-
+   
     // Shrink the navbar 
     
 
@@ -45,4 +43,20 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                console.log("sending contact form");
+                
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                        document. getElementById("contactForm"). reset();
+                        swal("sent succesfully");
+                   }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
 });
+
+
+

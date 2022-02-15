@@ -2291,7 +2291,7 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: var(--bs-primary);
   background-color: #fff;
   background-clip: padding-box;
   border: 0.125rem solid #ced4da;
@@ -2313,7 +2313,6 @@ progress {
   cursor: pointer;
 }
 .form-control:focus {
-  color: #212529;
   background-color: #fff;
   border-color: #8ddece;
   outline: 0;
@@ -2759,6 +2758,7 @@ textarea.form-control-lg {
 
 .form-floating {
   position: relative;
+  color:  var(--bs-primary);
 }
 .form-floating > .form-control,
 .form-floating > .form-select {
@@ -11473,7 +11473,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: var(--bs-primary);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
