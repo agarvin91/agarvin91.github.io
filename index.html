@@ -46,6 +46,10 @@
         </nav>
         <!--Main Title Bar -->
         <section class = "mainBackground container-fluid" id="HomePage">
+            <img id="books" class="img-fluid" style="width:100%;height:auto;position:absolute;" src="assets/img/Falling_Books.png" alt="FallingBooks"/>
+            <img id="booksMobile" class="img-fluid" style="width:100%;height:auto;position:absolute;" src="assets/img/Falling_Books_Mobile.png" alt="FallingBooks"/>
+            <img id="booksMiddle" class="img-fluid" style="width:100%;height:auto;position:absolute;" src="assets/img/Falling_Books_Middle_Narrow.png" alt="FallingBooks"/>
+               
             <div class="row mainSlice align-items-center justify-content-center p-2">
                 <!--Chair Picture -->
                 <div class="col-4 col-lg-3 text-center">
@@ -54,33 +58,32 @@
                 <!--Main Text -->
                 <div class="col-xs-12 col-lg-8 pt-2 ">
                      <div class="col-xs-12 rounded text-center">
-                        <h1 class="masthead-heading text-uppercase display-3">Angela Garvin</h1>
+                        <h1 class="masthead-heading text-uppercase display-1">Angela Garvin</h1>
                         <br/>
                         <!-- Masthead Subheading-->
                         <p class="masthead-subheading font-weight-bold " style="font-size:1.75rem">Author | Speaker | Storyteller</p>
                         <!-- Icon Divider-->
-                        <div class="divider-custom divider-light">
-                            <div class="divider-custom-line"></div>
-                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                            <div class="divider-custom-line"></div>
+                        <div class="divider-custom divider-custom">
+                            <div class="divider-custom-line" style="background-color:#212123"></div>
+                            <div class="divider-custom-icon" style="color:#212123"><i class="fas fa-star"></i></div>
+                            <div class="divider-custom-line" style="background-color:#212123"></div>
                         </div>
-                        <p class="masthead-subheading" style="font-size: 1.0rem">Teaching God's truth through rhyme and reason.</p>
-                        <p class="masthead-subheading" style="font-size:1.0rem">To live a life with eyes wide open to God’s Goodness</p>
+                        <p class="masthead-subheading font-weight-bold" style="font-size: 1.5rem">Teaching God's truth through rhyme and reason.</p>
                     </div>
                 </div >  
             </div>
         </section>
 
-       <!-- Books Section-->
-        <section class="page-section portfolio pt-5" id="portfolio">
+        <!-- Books Section-->
+        <section class="page-section bg-white portfolio pt-5 text-third" id="portfolio">
             <div class="container">
                 <!-- Books Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Books</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-custom-blue mb-0">Books</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-book"></i></div>
-                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-line background-third"></div>
+                    <div class="divider-custom-icon text-third"><i class="fas fa-book"></i></div>
+                    <div class="divider-custom-line background-third"></div>
                 </div>
                 <div class="row">
                     <div class="col-12">
@@ -88,8 +91,8 @@
                             
                             <div class=col-md-8>
                                 <div>
-                                    <p class="lead text-primary">When Mommy Says No</p>
-                                    <p class="text-primary">
+                                    <p class="lead">When Mommy Says No</p>
+                                    <p class="">
                                         When you’re little and don’t get to do all you want, you can trust that your mommy has a good reason behind each and every rule and that her “no” simply proves her love for you.
                                     </p>
                                 </div>
@@ -99,15 +102,16 @@
                 </div>
              <div class="row" style="margin-top:2rem">
                     <div class="col-12">
-                        <div class="row align-items-center justify-content-center">
-                            <div class="col-6 col-md-4 col-lg-3">
+                        <div class="row align-items-center justify-content-center text-center">
+                            <!-- <div class="col-6 col-md-4 col-lg-3">
                         <img class="img-fluid" src="assets/img/TownCrier.png" alt="Town Crier"/>
-                            </div>
+                            </div> -->
+                            <p class="masthead-heading display-5 mb-5">Upcomming Works:</p>
                         </div>
                     </div>
             </div>
             <div class="row">
-                <div class="col-12 col-lg-6 text-primary">
+                <div class="col-12 col-lg-6">
                         <p class="lead">Hello From Up Above</p>
                         <ul>
                             <li>Our great big God is not too big to show little you how special you are to him!
@@ -119,7 +123,7 @@
                             </li>
                         </ul>
                 </div>
-                <div class="col-12 col-lg-6 text-primary">
+                <div class="col-12 col-lg-6">
                         <p class="lead">Blown Kisses Travel Far</p>
                         <ul>
                             <li> It’s more than possible to keep a long distance connection with that far away child that you love so much. 
@@ -154,7 +158,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 p-2">
                         <p class="masthead-subheading font-weight-bold " style="font-size:2rem">Angela's Fun Facts</p>
                         <ul class="lead p-2">
                             <li class="p-2">Mom of 3 grown sons</li>
@@ -178,11 +182,11 @@
                 
               <div class="row justify-content-around">
                 
-                    <div class="col-12 col-xl-5 text-center p-4">
-                         <iframe width="560" height="315" src="https://www.youtube.com/embed/hWOoq5jz7AI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="col-12 col-xl-5 text-center p-4" style="max-width: 100%;">
+                         <iframe class="video" src="https://www.youtube.com/embed/hWOoq5jz7AI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div class="col-12 col-xl-5 text-center p-4">
-                     <iframe width="560" height="315" src="https://www.youtube.com/embed/6XUUsZNfrgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="col-12 col-xl-5 text-center p-4" style="max-width: 100%;">
+                     <iframe  class="video" src="https://www.youtube.com/embed/6XUUsZNfrgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
               </div>
           </div> 
@@ -192,12 +196,12 @@
          <section class="page-section pt-5" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-third mb-0">Contact Me</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-pen"></i></div>
-                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-line background-third"></div>
+                    <div class="divider-custom-icon text-third"><i class="fas fa-pen"></i></div>
+                    <div class="divider-custom-line background-third"></div>
                 </div>
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
@@ -235,7 +239,7 @@
         </section>
 
         <!--Footer-->
-        <footer class="footer text-center p-3 pb-4">
+        <footer class="footer text-center p-3 pb-4 text-third">
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
@@ -248,12 +252,12 @@
                   
                      <div class="col-xs-12 col-lg-6 mb-1 mb-lg-0">
                         <h4 class="text-uppercase mb-4 pt-3">Links:</h4>
-                        <div class="mb-0">
-                           <a class="socialLink p-2" style="white-space: nowrap" href="https://www.facebook.com/angela.s.garvin/"> <span>Facebook &nbsp </span><i class="fa-brands fa-facebook"></i></a>
+                        <div class="mb-0 text-third">
+                           <a class="socialLink p-2 text-third" style="white-space: nowrap" href="https://www.facebook.com/angela.s.garvin/"> <span>Facebook &nbsp </span><i class="fa-brands fa-facebook"></i></a>
                            <span>|</span>
-                           <a class="socialLink p-2" style="white-space: nowrap" href="https://www.instagram.com/angela_garvin/"> <span>Instagram &nbsp </span><i class="fa-brands fa-instagram"></i></a>
+                           <a class="socialLink p-2 text-third" style="white-space: nowrap" href="https://www.instagram.com/angela_garvin/"> <span>Instagram &nbsp </span><i class="fa-brands fa-instagram"></i></a>
                            <span>|</span>
-                           <a class="socialLink p-2" style="white-space: nowrap" href="https://twitter.com/AngelaGarvin1"> <span>Twitter &nbsp </span><i class="fa-brands fa-twitter"></i></a>
+                           <a class="socialLink p-2 text-third" style="white-space: nowrap" href="https://twitter.com/AngelaGarvin1"> <span>Twitter &nbsp </span><i class="fa-brands fa-twitter"></i></a>
                         </div>
                     </div>
                 </div>
@@ -263,8 +267,8 @@
         <div class="copyright pb-4 text-center">
             <div class="container">
                 <div class="row">
-                <small class="col-12 col-lg-6">Copyright &copy; AngelaGarvinWrites.com 2022</small>
-                <small class="col-12 col-lg-6"><a href="https://lifethatmatters.net/authorizeme">Represented by: &nbsp Dr. Sharon Elliott of Authorize Me Literary Agency</a></small>
+                <small class="col-12 col-lg-6 text-third">Copyright &copy; AngelaGarvinWrites.com 2022</small>
+                <small class="col-12 col-lg-6 text-third"><a class="text-third" href="https://lifethatmatters.net/authorizeme">Represented by: &nbsp Dr. Sharon Elliott of Authorize Me Literary Agency</a></small>
                 </div>
             </div>
         </div>
