@@ -39,6 +39,7 @@
   --bs-fourth: #fab95a; /*Accent Yellow*/
   --bs-fifth:  #07bfc9;  /*Accent Turquoise*/
   --bs-sixth:  #5071ff;  /*Accent Purple*/
+  --bs-seventh: #09015F; /*Dark Blue*/
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
@@ -51,6 +52,7 @@
   --bs-fourth-rgb: 250,185,90; /*Accent Yellow*/
   --bs-fifth-rgb:  7,191,201; /*Accent Turqoise*/
   --bs-sixth-rgb:  80,113,255; /*Accent Purple*/
+  --bs-seventh-rgb:  9,1,95; /* Dark Blue*/
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -91,11 +93,14 @@
   overflow: auto;
 }
 
-.background-third{
+.bg-dblue{
   background-color: #09015F !important;
 }
-.text-third{
+.text-dblue{
   color: #09015F !important;
+}
+.bg-dgreen{
+  background-color: #37aba3 !important;
 }
 .mainHeader{
   background-color: var(--bs-secondary);
@@ -163,13 +168,16 @@
     top: 25vh;  
   }
   #books{
-    display: none;
+    display: inline;
   }
    #booksMiddle{
-    display: inline;
+    display: none;
   }
   #booksMobile{
     display: none;
+  }
+  .fullscreenPadding{
+    padding-top: 5rem;
   }
 
 }
@@ -178,10 +186,10 @@
       top:  35vh;
   }
   #books{
-    display: none;
+    display: inline;
   }
   #booksMiddle{
-    display: inline;
+    display: none;
   }
   #booksMobile{
     display: none;
